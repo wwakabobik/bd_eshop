@@ -1,0 +1,17 @@
+insert into STORES
+(STORE_ID
+, NAME
+, ADRESS
+, PHONE
+, EMAIL
+, SUPPLY_TOTAL
+, SUPPLY_NOW
+) values
+( :STORE_ID
+, :NAME
+, :ADRESS
+, :PHONE
+, :EMAIL
+, :SUPPLY_TOTAL
+, :SUPPLY_NOW
+)

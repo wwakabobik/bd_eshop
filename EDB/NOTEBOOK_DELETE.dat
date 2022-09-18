@@ -1,0 +1,2 @@
+delete from NOTEBOOK where
+ID = :OLD_ID

@@ -1,0 +1,2 @@
+delete from PRODUCTS where
+PRODUCT_ID = :OLD_PRODUCT_ID

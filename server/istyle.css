@@ -1,0 +1,37 @@
+BODY {
+font: 12pt "Courier New", Courier; color: #080634;
+font-weight: bold;
+font-height: bold;
+text-align: justify;
+background: #FFFFFF url(http://hedgehog/background.jpg) no-repeat fixed center center;
+scrollbar-track-color: #FFFFFF;
+scrollbar-face-color: #0066CC; 
+scrollbar-arrow-color: #FFFFFF; 
+scrollbar-dark-shadow-color: #0066CC; 
+scrollbar-3d-light-color: #0066CC;
+scrollbar-shadow-color: #FFFFFF;
+}
+
+H1 {
+font: 18pt Monotype Corsiva, Courier New, Courier; color: #7E0B0B;
+font-weight: bold;
+font-height: bold;
+text-align: center;
+}
+
+P {
+font: 12pt Courier New, Courier; color: #080634;
+text-align: justify;
+}
+
+A {
+font: 12pt Courier New, Courier; color: #080634; TEXT-DECORATION: underline;
+font-weight: bold;
+font-height: bold;
+}
+
+A:hover {
+font: 12pt Courier New, Courier; color: #080634; TEXT-DECORATION: overline underline; 
+font-weight: bold;
+font-height: bold;
+}

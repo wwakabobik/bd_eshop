@@ -1,0 +1,17 @@
+insert into OFFERS
+(OFFER_ID
+, C_ID
+, P_ID
+, AMOUNT
+, O_DATE
+, PAYMENT
+, O_DONE
+) values
+( :OFFER_ID
+, :C_ID
+, :P_ID
+, :AMOUNT
+, :O_DATE
+, :PAYMENT
+, :O_DONE
+)

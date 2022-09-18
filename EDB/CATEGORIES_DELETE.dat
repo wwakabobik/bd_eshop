@@ -1,0 +1,2 @@
+delete from CATEGORIES where
+CATEGORIES_ID = :OLD_CATEGORIES_ID

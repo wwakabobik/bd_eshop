@@ -1,0 +1,13 @@
+insert into PRODUCTS
+(PRODUCT_ID
+, CAT_ID
+, AMOUNT
+, B_PRICE
+, S_PRICE
+) values
+( :PRODUCT_ID
+, :CAT_ID
+, :AMOUNT
+, :B_PRICE
+, :S_PRICE
+)

@@ -1,0 +1,11 @@
+update OFFERS
+set
+OFFER_ID = :OFFER_ID
+, C_ID = :C_ID
+, P_ID = :P_ID
+, AMOUNT = :AMOUNT
+, O_DATE = :O_DATE
+, PAYMENT = :PAYMENT
+, O_DONE = :O_DONE
+where
+OFFER_ID = :OLD_OFFER_ID

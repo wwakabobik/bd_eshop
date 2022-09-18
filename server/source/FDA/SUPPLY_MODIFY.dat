@@ -1,0 +1,11 @@
+update SUPPLY
+set
+SUPPLY_ID = :SUPPLY_ID
+, P_ID = :P_ID
+, AMOUNT = :AMOUNT
+, ST_ID = :ST_ID
+, S_DATE = :S_DATE
+, PRICE = :PRICE
+, S_DONE = :S_DONE
+where
+SUPPLY_ID = :OLD_SUPPLY_ID

@@ -1,0 +1,2 @@
+delete from PREMIUM where
+PREMIUM_ID = :OLD_PREMIUM_ID

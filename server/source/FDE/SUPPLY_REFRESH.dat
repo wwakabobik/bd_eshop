@@ -1,0 +1,10 @@
+Select 
+  SUPPLY_ID,
+  P_ID,
+  VALUE,
+  SUPPLY_DATE,
+  ST_ID,
+  PRICE
+from SUPPLY 
+where
+  SUPPLY_ID = :SUPPLY_ID

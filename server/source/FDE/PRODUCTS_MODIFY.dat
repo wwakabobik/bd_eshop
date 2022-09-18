@@ -1,0 +1,9 @@
+update PRODUCTS
+set
+  PRODUCT_ID = :PRODUCT_ID,
+  CAT_ID = :CAT_ID,
+  VALUE = :VALUE,
+  S_PRICE = :S_PRICE,
+  B_PRICE = :B_PRICE
+where
+  PRODUCT_ID = :OLD_PRODUCT_ID

@@ -1,0 +1,2 @@
+delete from CUSTOMERS where
+CUSTOMER_ID = :OLD_CUSTOMER_ID

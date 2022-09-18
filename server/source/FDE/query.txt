@@ -1,0 +1,18 @@
+CREATE TABLE CUSTOMER 
+("C_ID" INTEGER NOT NULL,
+"Name" VARCHAR (24) character set WIN1251 collate PXW_CYRL,
+"Family" VARCHAR (50) character set WIN1251 collate PXW_CYRL,
+"Last" VARCHAR (50) character set WIN1251 collate PXW_CYRL,
+"Adress" VARCHAR (256) character set WIN1251 collate PXW_CYRL,
+"Phone" INTEGER,
+"Email" VARCHAR (50) character set WIN1251 collate PXW_CYRL,
+"Offer" INTEGER,
+"VIP" VARCHAR (3) character set WIN1251 collate PXW_CYRL);
+
+CREATE TRIGGER "AI_CUSTOMER_C_ID" FOR CUSTOMER 
+ACTIVE BEFORE INSERT POSITION 0
+AS 
+BEGIN 
+IF (NEW. "C_ID" IS NULL) 
+THEN NEW. "C_ID"=GEN_ID("CUSTOMER_C_ID_gen",1); 
+END

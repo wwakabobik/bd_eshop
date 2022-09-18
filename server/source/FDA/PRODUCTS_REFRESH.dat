@@ -1,0 +1,8 @@
+select
+PRODUCT_ID
+, CAT_ID
+, AMOUNT
+, B_PRICE
+, S_PRICE
+from PRODUCTS where
+PRODUCT_ID = :PRODUCT_ID

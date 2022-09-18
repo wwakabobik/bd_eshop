@@ -1,0 +1,2 @@
+delete from SUPPLY where
+SUPPLY_ID = :OLD_SUPPLY_ID

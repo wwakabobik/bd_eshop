@@ -1,0 +1,19 @@
+select
+ID
+, P_ID
+, TYPE
+, NAME
+, CPU
+, MEMORY
+, HDD
+, DISPLAY
+, VIDEO
+, AUDIO
+, DRIVE
+, PORTS
+, NETWORK
+, WEIGHT
+, SIZES
+, MANUFACTURER
+from NOTEBOOK where
+ID = :ID

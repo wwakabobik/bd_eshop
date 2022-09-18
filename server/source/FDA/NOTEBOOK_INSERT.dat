@@ -1,0 +1,37 @@
+insert into NOTEBOOK
+(ID
+, P_ID
+, TYPE
+, NAME
+, CPU
+, MEMORY
+, HDD
+, DISPLAY
+, VIDEO
+, AUDIO
+, DRIVE
+, PORTS
+, NETWORK
+, WEIGHT
+, SIZES
+, MANUFACTURER
+, PIC_NOTE
+) values
+( :ID
+, :P_ID
+, :TYPE
+, :NAME
+, :CPU
+, :MEMORY
+, :HDD
+, :DISPLAY
+, :VIDEO
+, :AUDIO
+, :DRIVE
+, :PORTS
+, :NETWORK
+, :WEIGHT
+, :SIZES
+, :MANUFACTURER
+, :PIC_NOTE
+)

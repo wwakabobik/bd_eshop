@@ -1,0 +1,2 @@
+delete from STORES where
+STORE_ID = :OLD_STORE_ID

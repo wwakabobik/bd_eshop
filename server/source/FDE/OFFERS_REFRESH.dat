@@ -1,0 +1,11 @@
+Select 
+  OFFER_ID,
+  P_ID,
+  C_ID,
+  AMOUNT,
+  OFFER_DATE,
+  O_PAYMENT,
+  O_DONE
+from OFFERS 
+where
+  OFFER_ID = :OFFER_ID

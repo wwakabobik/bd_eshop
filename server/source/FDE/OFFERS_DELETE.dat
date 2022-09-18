@@ -1,0 +1,3 @@
+delete from OFFERS
+where
+  OFFER_ID = :OLD_OFFER_ID

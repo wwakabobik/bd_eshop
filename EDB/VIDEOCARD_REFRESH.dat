@@ -1,0 +1,14 @@
+select
+ID
+, P_ID
+, NAME
+, CHIPSET
+, MEMORY
+, BUS
+, RAMDAC
+, INTERFACE
+, PORTS
+, MANUFACTURER
+, PIC_VIDEO
+from VIDEOCARD where
+ID = :ID

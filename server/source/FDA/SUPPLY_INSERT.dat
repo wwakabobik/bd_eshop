@@ -1,0 +1,17 @@
+insert into SUPPLY
+(SUPPLY_ID
+, P_ID
+, AMOUNT
+, ST_ID
+, S_DATE
+, PRICE
+, S_DONE
+) values
+( :SUPPLY_ID
+, :P_ID
+, :AMOUNT
+, :ST_ID
+, :S_DATE
+, :PRICE
+, :S_DONE
+)
